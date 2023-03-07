@@ -1,0 +1,144 @@
+/* body {
+    
+}
+
+.navbar {
+    padding: 1rem;
+    background-color: #8bfb71;
+    color: #fff;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+.predict {
+    padding: 0;
+    margin: 0;
+
+}
+
+#main .container-fluid {
+    margin: 100px 0;
+}
+
+a {
+    text-decoration: none;
+    color:white;
+}
+
+a:hover {
+    text-decoration: none;
+    color:white;
+}
+
+
+#result .container-fluid{
+    margin: 30px 0;
+}
+
+.title {
+    text-align: center;
+    margin:40px 0;
+}
+
+#result img{
+    width: 600px;
+    height: 400px;
+}
+#result {
+    text-align: center;
+}
+ */
+
+
+body {
+    background-image: url("../images/crop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #b9f1fc; */
+    overflow: hidden;
+}
+
+#navbar h1 {
+    color: rgb(7, 231, 231);
+    margin: 0;
+    padding: 10px;
+    font-size: 35px;
+}
+
+#form-container {
+    /* background-color: rgba(255, 255, 255, 0.8); */
+    margin: auto;
+    max-width: 500px;
+    padding: 20px;
+}
+
+#form-container h5 {
+    margin: 10px 0;
+}
+
+#form-container input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+}
+
+#form-container input[type="text"]:hover {
+    background-color: #e6e6e6;
+    border: 3px solid #51c351;
+}
+
+#form-container input[type="submit"] {
+    background-color: #246327;
+    color: white;
+    align-self: center;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    display: block;
+        margin: 0 auto;
+    /* float: none; */
+}
+
+#form-container input[type="submit"]:hover {
+    background-color: #4CAF50;
+}
+#form-container label {
+    font-size: 18px;
+    color: rgb(188, 207, 158);
+}
+
+.title {
+    text-align: center;
+    color: #51c351;
+}
+
+.title h1 {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+/* Style for the crop image */
+img {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+    max-height: 50%;
+    border: 3px solid greenyellow;
+    border-radius: 3px;
+}
